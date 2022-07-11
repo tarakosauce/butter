@@ -30,12 +30,13 @@ const registerOrLogin = async () => {
   }
 
   router.push('/')
-}
+};
 </script>
 
 <template>
     <main>
         <h1 class="text-4x1 font-bold mb-8">BUTTER</h1>
+        
         <form @submit.prevent="registerOrLogin">
             <h3 class="block mb-4">Login or Register</h3>
 

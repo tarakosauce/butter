@@ -8,8 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "@nhost/apollo": "^0.5.21",
     "@nhost/vue": "^0.3.5",
     "@vue/apollo-composable": "^4.0.0-alpha.18",
+    "lodash": "^4.17.21",
     "vue": "^3.2.25",
     "vue-router": "^4.1.2"
   },
